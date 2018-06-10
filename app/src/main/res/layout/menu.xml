@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#212121"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context="com.example.android.music.MainActivity">
+
+    <TextView
+        android:id="@+id/allsongs"
+        style="@style/CategoryStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.20"
+        android:background="@color/category_allsongs"
+        android:gravity="center"
+        android:text="@string/category_allsongs"
+        android:textSize="@dimen/menu_text_size" />
+
+    <TextView
+        android:id="@+id/favorites"
+        style="@style/CategoryStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.20"
+        android:background="@color/category_favorites"
+        android:gravity="center"
+        android:text="@string/category_favorites"
+        android:textSize="@dimen/menu_text_size" />
+
+    <TextView
+        android:id="@+id/artists"
+        style="@style/CategoryStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.20"
+        android:background="@color/category_artists"
+        android:gravity="center"
+        android:text="@string/category_artists"
+        android:textSize="@dimen/menu_text_size" />
+
+    <TextView
+        android:id="@+id/albums"
+        style="@style/CategoryStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.20"
+        android:background="@color/category_albums"
+        android:gravity="center"
+        android:text="@string/category_albums"
+        android:textSize="@dimen/menu_text_size" />
+
+</LinearLayout>
